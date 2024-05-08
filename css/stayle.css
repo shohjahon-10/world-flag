@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+/* http://meyerweb.com/eric/tools/css/reset/
+   v5.0.2 | 20191019
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+  display: block;
+}
+
+/* HTML5 hidden-attribute fix for newer browsers */
+*[hidden] {
+  display: none;
+}
+
+body {
+  line-height: 1;
+}
+
+menu, ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background: rgb(32, 44, 54);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(43, 56, 68);
+  height: 80px;
+}
+.header .header-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+.header .header-text .btn-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  color: #fff;
+}
+
+.promo-search {
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.promo-search .departament {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -moz-column-gap: 48px;
+       column-gap: 48px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+  background: rgb(43, 56, 68);
+  padding: 18px 24px;
+  color: #fff;
+  cursor: pointer;
+}
+.promo-search .imput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.promo-search .imput .search {
+  transform: translateX(50px);
+}
+.promo-search .imput input {
+  max-width: 480px;
+  height: 56px;
+  padding-left: 74px;
+  padding-right: 30px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+  background: rgb(43, 56, 68);
+  color: #fff;
+}
+
+.flag {
+  margin-top: 48px;
+  margin-bottom: 45px;
+}
+.flag .germaniya {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 75px;
+       column-gap: 75px;
+  flex-wrap: wrap;
+  row-gap: 75px;
+}
+
+@media (max-width: 730px) {
+  .promo .promo-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    row-gap: 40px;
+  }
+}/*# sourceMappingURL=stayle.css.map */
